@@ -1,0 +1,186 @@
+2015-01-30 16:02:27,169 [2866] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:02:27,179 [2866] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:02:57,180 [4504] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:02:57,180 [4504] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:03:22,575 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:03:22,576 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:03:22,577 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:03:22,590 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:03:27,181 [3149] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:03:27,181 [3149] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:03:57,193 [3843] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:03:57,193 [3843] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:04:22,591 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:04:22,591 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:04:22,594 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:04:22,594 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:04:27,207 [3149] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:04:27,207 [3149] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:04:41,756 [3252] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/17/ROOT, Type: WhatsUp, Sent: 01/30/2015 14:04:41
+2015-01-30 16:04:41,757 [3067] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/18/ROOT, Type: Awesome, Sent: 01/30/2015 14:04:41
+2015-01-30 16:04:41,757 [3183] DEBUG EPiServer.Events.Remote.EventReplicationWCFProviders - Event successfully raised with event replicator
+2015-01-30 16:04:57,223 [4660] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:04:57,223 [4660] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:05:22,594 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:05:22,594 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:05:22,597 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:05:22,598 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:05:23,286 [3179] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/18/ROOT, Type: WhatsUp, Sent: 01/30/2015 14:05:23
+2015-01-30 16:05:23,287 [3183] DEBUG EPiServer.Events.Remote.EventReplicationWCFProviders - Event successfully raised with event replicator
+2015-01-30 16:05:23,287 [3252] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/17/ROOT, Type: Awesome, Sent: 01/30/2015 14:05:23
+2015-01-30 16:05:27,224 [3067] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:05:27,224 [3067] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:05:57,239 [2816] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:05:57,239 [2816] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:06:22,598 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:06:22,598 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:06:22,600 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:06:22,601 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:06:27,251 [3183] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:06:27,251 [3183] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:06:57,272 [3183] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:06:57,272 [3183] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:07:22,602 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:07:22,602 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:07:22,605 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:07:22,605 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:07:27,286 [3162] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:07:27,286 [3162] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:07:57,286 [3162] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:07:57,286 [3162] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:08:22,606 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:08:22,618 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:08:22,620 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:08:22,621 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:08:27,287 [3162] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:08:27,287 [3162] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:08:57,287 [3179] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:08:57,287 [3179] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:09:22,622 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:09:22,623 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:09:22,625 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:09:22,625 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:09:27,287 [2866] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:09:27,287 [2866] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:09:41,759 [3252] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/17/ROOT, Type: WhatsUp, Sent: 01/30/2015 14:09:41
+2015-01-30 16:09:41,760 [3359] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/18/ROOT, Type: Awesome, Sent: 01/30/2015 14:09:41
+2015-01-30 16:09:41,761 [3333] DEBUG EPiServer.Events.Remote.EventReplicationWCFProviders - Event successfully raised with event replicator
+2015-01-30 16:09:57,301 [3359] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:09:57,301 [3359] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:10:22,632 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:10:22,633 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:10:22,635 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:10:22,635 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:10:23,286 [3333] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/18/ROOT, Type: WhatsUp, Sent: 01/30/2015 14:10:23
+2015-01-30 16:10:23,288 [2866] DEBUG EPiServer.Events.Remote.EventReplicationWCFProviders - Event successfully raised with event replicator
+2015-01-30 16:10:23,289 [3252] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/17/ROOT, Type: Awesome, Sent: 01/30/2015 14:10:23
+2015-01-30 16:10:27,303 [3369] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:10:27,303 [3369] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:10:57,318 [3333] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:10:57,318 [3333] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:11:22,648 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:11:22,649 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:11:22,652 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:11:22,652 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:11:27,332 [3319] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:11:27,332 [3319] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:11:57,333 [2866] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:11:57,333 [2866] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:12:22,666 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:12:22,666 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:12:22,670 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:12:22,670 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:12:27,334 [3185] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:12:27,335 [3185] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:12:57,351 [3333] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:12:57,369 [3333] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:13:22,670 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:13:22,670 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:13:22,671 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:13:22,672 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:13:27,370 [3319] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:13:27,370 [3319] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:13:57,384 [3333] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:13:57,384 [3333] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:14:22,674 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:14:22,674 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:14:22,694 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:14:22,695 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:14:27,385 [3395] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:14:27,385 [3395] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:14:32,240 [3358] DEBUG EPiServer.Licensing.CloudLicenseRuntime - Failed to load license
+EPiServer.Licensing.LicenseException: The license file "C:\EPiServer\AxiCommerceSampleCommerceManager\wwwroot\License.config" does not exist
+   at EPiServer.Licensing.LicenseData.GetMachineOrGenericLicenseFile(String fileName)
+   at EPiServer.Licensing.LicenseData.Load(String fileName, String licenseName, RSA key)
+   at EPiServer.Licensing.LicenseRuntime.InternalLoad(Assembly caller, String filename, String licenseName, String publicKeyResource)
+   at EPiServer.Licensing.CloudLicenseRuntime.GetCloudLicense()
+2015-01-30 16:14:41,757 [3386] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/17/ROOT, Type: WhatsUp, Sent: 01/30/2015 14:14:41
+2015-01-30 16:14:41,759 [3369] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/18/ROOT, Type: Awesome, Sent: 01/30/2015 14:14:41
+2015-01-30 16:14:41,759 [3430] DEBUG EPiServer.Events.Remote.EventReplicationWCFProviders - Event successfully raised with event replicator
+2015-01-30 16:14:57,394 [3358] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:14:57,394 [3358] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:15:22,695 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:15:22,718 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:15:22,721 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:15:22,722 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:15:23,301 [3430] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/18/ROOT, Type: WhatsUp, Sent: 01/30/2015 14:15:23
+2015-01-30 16:15:23,302 [3411] DEBUG EPiServer.Events.Remote.EventReplicationWCFProviders - Event successfully raised with event replicator
+2015-01-30 16:15:23,303 [3386] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/17/ROOT, Type: Awesome, Sent: 01/30/2015 14:15:23
+2015-01-30 16:15:27,409 [3411] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:15:27,409 [3411] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:15:57,423 [3185] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:15:57,424 [3185] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:16:22,723 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:16:22,735 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:16:22,737 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:16:22,737 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:16:27,426 [3411] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:16:27,426 [3411] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:16:57,426 [3430] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:16:57,430 [3430] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:17:22,738 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:17:22,739 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:17:22,748 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:17:22,749 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:17:27,432 [3411] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:17:27,433 [3411] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:17:57,442 [3319] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:17:57,442 [3319] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:18:22,797 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:18:22,797 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:18:22,797 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:18:22,797 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:18:27,456 [3333] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:18:27,456 [3333] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:18:57,468 [3162] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:18:57,491 [3162] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:19:22,805 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:19:22,805 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:19:22,805 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:19:22,805 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:19:27,497 [3490] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:19:27,497 [3490] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:19:41,770 [3386] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/17/ROOT, Type: WhatsUp, Sent: 01/30/2015 14:19:41
+2015-01-30 16:19:41,770 [3319] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/18/ROOT, Type: Awesome, Sent: 01/30/2015 14:19:41
+2015-01-30 16:19:41,770 [3333] DEBUG EPiServer.Events.Remote.EventReplicationWCFProviders - Event successfully raised with event replicator
+2015-01-30 16:19:57,511 [3490] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:19:57,511 [3490] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:20:22,809 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:20:22,809 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:20:22,809 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:20:22,809 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:20:23,315 [3395] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/18/ROOT, Type: WhatsUp, Sent: 01/30/2015 14:20:23
+2015-01-30 16:20:23,315 [3411] DEBUG EPiServer.Events.Remote.EventReplicationWCFProviders - Event successfully raised with event replicator
+2015-01-30 16:20:23,315 [3503] DEBUG EPiServer.Events.Clients.Event - Method called with eventId:51da5053-6af8-4a10-9bd4-8417e48f38bd param:ServerName: AOAASUS, ApplicationName: /LM/W3SVC/17/ROOT, Type: Awesome, Sent: 01/30/2015 14:20:23
+2015-01-30 16:20:27,526 [3495] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:20:27,526 [3495] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:20:57,535 [3510] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:20:57,565 [3510] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:21:22,825 [2908] DEBUG EPiServer.Data.Providers.SqlDatabaseHandler - Opening a new transaction-less connection
+2015-01-30 16:21:22,825 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Opening Connection
+2015-01-30 16:21:22,825 [2908] DEBUG EPiServer.Data.Providers.ConnectionContext - Closing Connection
+2015-01-30 16:21:22,825 [2908] INFO  EPiServer.Scheduler.SchedulerService - No new scheduled jobs, currently waiting for 01/30/2015 14:48:11 (ab5490f1-329b-4725-82a0-da784bad77ea)
+2015-01-30 16:21:27,570 [3510] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:21:27,570 [3510] DEBUG SearchSettings - End dequeue unprocessed items
+2015-01-30 16:21:57,578 [3319] DEBUG SearchSettings - Start dequeue unprocessed items
+2015-01-30 16:21:57,578 [3319] DEBUG SearchSettings - End dequeue unprocessed items

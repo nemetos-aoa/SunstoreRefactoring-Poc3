@@ -1,0 +1,2 @@
+//>>built
+define("epi-ecf-ui/contentediting/editors/AssociationGroupSelectionEditor",["dojo/_base/declare","dijit/form/Select","epi/dependency"],function(_1,_2,_3){return _1([_2],{storeKey:"epi.commerce.associationgroupdefinition",constructor:function(){this.store=this.store||_3.resolve("epi.storeregistry").get(this.storeKey);this.labelAttr="name";}});});

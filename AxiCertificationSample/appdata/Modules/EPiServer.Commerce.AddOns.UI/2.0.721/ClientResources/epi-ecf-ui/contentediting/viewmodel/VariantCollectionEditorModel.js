@@ -1,0 +1,2 @@
+//>>built
+define("epi-ecf-ui/contentediting/viewmodel/VariantCollectionEditorModel",["dojo/_base/declare","./VariantCollectionReadOnlyEditorModel","./_RelationCollectionEditorModelMixin","epi/i18n!epi/cms/nls/commerce.contentediting.editors.variantcollectioneditor"],function(_1,_2,_3,_4){return _1([_2,_3],{res:_4});});

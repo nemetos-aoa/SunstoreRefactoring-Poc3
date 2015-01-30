@@ -1,0 +1,2 @@
+//>>built
+define("epi-ecf-ui/contentediting/editors/AssociationCollectionReadOnlyEditor",["dojo/_base/declare","./ReadOnlyCollectionEditor","../viewmodel/AssociationCollectionReadOnlyEditorModel","epi/i18n!epi/cms/nls/commerce.contentediting.editors.associationcollectioneditor"],function(_1,_2,_3,_4){return _1([_2],{_renderNoDataMessage:function(){this.grid.set("noDataMessage",_4.nodatamessage);this.inherited(arguments);},iconClass:"epi-iconReferences",modelType:_3,changeToView:"linksview",buttonLabel:_4.editbuttontext});});

@@ -1,0 +1,2 @@
+//>>built
+define("epi-ecf-ui/nls/widgets_ROOT",{"dojo/cldr/nls/currency":{"USD_symbol":"US$","CAD_symbol":"CA$","GBP_symbol":"£","HKD_symbol":"HK$","JPY_symbol":"JP¥","AUD_symbol":"A$","CNY_symbol":"CN¥","EUR_symbol":"€"}});

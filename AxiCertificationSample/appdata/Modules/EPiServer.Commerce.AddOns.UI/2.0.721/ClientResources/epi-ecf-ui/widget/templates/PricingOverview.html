@@ -1,0 +1,30 @@
+﻿<div class="epi-pricingOverview">
+    <div data-dojo-attach-point="header">
+        <div data-dojo-type="epi-cms/contentediting/NotificationBar" data-dojo-attach-point="notificationBar"></div>
+        <div class="epi-pricingOverviewEdit">
+            <h1 class="dijitInline">${resources.heading}</h1>
+            <div class="epi-filterHolder">
+                <div class="epi-filterHolderLeading">
+                    <button class="epi-mediumButton"
+                            data-dojo-attach-event='onClick: _onAddNewPrice'
+                            data-dojo-attach-point="addNewPrice"
+                            data-dojo-type="dijit/form/Button"
+                            data-dojo-props="label: '${resources.buttons.addprice}', title:'${resources.buttons.addprice}', iconClass:'epi-iconPlus'"></button>
+                </div>
+                <div class="epi-filterHolderCenter clearfix">
+                    <label for="customergroup">${resources.selectors.customergroup}</label>
+                    <select name="customergroup"
+                            data-dojo-type="dijit/form/Select"
+                            data-dojo-attach-point="customerGroupSelector"
+                            data-dojo-attach-event='onChange: _onCustomerGroupChanged'></select>
+                    <label for="markets">${resources.selectors.market}</label>
+                    <select name="markets"
+                            data-dojo-type="epi-ecf-ui/widget/MarketSelector"
+                            data-dojo-attach-point="marketSelector"
+                            data-dojo-attach-event='onChange: _onMarketChanged'></select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-dojo-attach-point='priceListNode'></div>
+</div>

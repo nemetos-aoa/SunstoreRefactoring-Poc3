@@ -1,0 +1,2 @@
+//>>built
+var isTestRe=/\/test\//;var profile={resourceTags:{test:function(_1,_2){return isTestRe.test(_1);},miniExclude:function(_3,_4){return /\/(?:test|demos)\//.test(_3);},amd:function(_5,_6){return /\.js$/.test(_5);}}};

@@ -1,0 +1,144 @@
+﻿@import "./variables.less";
+
+.Sleek {
+    .dgrid-sort-arrow {
+        position: absolute;
+        right: -5px;
+    }
+
+    .epi-stock {
+        .border-radius(4px);
+        padding: 2px 4px;
+
+        .epi-icon {
+            margin-left: 4px;
+        }
+    }
+
+    .epi-stock-available {
+        border: 1px solid #ccd3d7;
+        display: inline-block;
+
+        .dijitIcon {
+            opacity: .4;
+        }
+    }
+
+    .epi-stock-unavailable {
+        background-color: @epi-status-background-red;
+        color: @text-color-white;
+    }
+
+    .epi-stock-low {
+        background-color: @epi-status-background-orange;
+        color: @text-color-white;
+    }
+
+    .epi-pricingOverview {
+        .epi-filterHolder {
+            padding: 10px 0px;
+
+            .epi-filterHolderLeading {
+                text-align: left;
+                display: inline-block;
+            }
+
+            .epi-filterHolderCenter {
+                text-align: center;
+                display: inline-block;
+            }
+        }
+
+        .epi-pricingOverviewEditor {
+            height: 100%;
+            overflow: auto;
+
+            .dijitNumberTextBox,
+            .dijitTextBox {
+                width: 5em;
+            }
+
+            .epi-dateTimeRangeSelector {
+                .dijitTextBox {
+                    width: 12em;
+                }
+
+                    .dijitTextBox:last-child {
+                        margin-top: 5px;
+                    }
+            }
+
+            .epi-moneyEditor {
+                .dijitTextBox:last-child {
+                    margin-top: 5px;
+                }
+            }
+
+            .epi-plain-grid {
+                height: 100%;
+                .border-box();
+            }
+
+                .epi-plain-grid.dgrid .dgrid-scroller {
+                    position: absolute;
+                    overflow-x: auto;
+                    overflow-y: scroll;
+                }
+
+            .dgrid-cell-editing {
+                overflow: visible;
+                position: relative;
+                z-index: 10;
+            }
+        }
+    }
+
+    .epi-media-collection {
+        min-width: 600px;
+    }
+
+    .epi-linkEdit {
+        padding: 5px 15px;
+    }
+
+    .epi-bundleEdit {
+        padding: 5px 15px;
+    }
+
+    .epi-packageEdit {
+        padding: 5px 15px;
+    }
+
+    .epi-pricingOverviewEdit {
+        padding: 5px 15px;
+    }
+
+    .dgrid-content {
+        .epi-ecf-uiPathLink {
+            .epi-functionLink;
+        }
+    }
+
+    &.dojoDndMove .epi-grid-dnd-overlay,
+    &.dojoDndCopy .epi-grid-dnd-overlay {
+        border: 3px solid @epi-drag-border-hover !important;
+        padding: 2px 6px;
+    }
+
+    .epi-catalogContentList {
+        .epi-opacity50 {
+            filter: alpha(opacity=50); /* For IE8 and earlier */
+            opacity: 0.5;
+        }
+
+        .dgrid-focus {
+            outline: 2px solid @epi-selected-item;
+        }
+    }
+
+    .epi-linkeditcollectionediteditor {
+        .epi-trailingButton {
+            float: right;
+        }
+    }
+}

@@ -1,0 +1,2 @@
+//>>built
+define("epi-ecf-ui/component/DeleteCatalogContentHandler",["dojo/_base/declare","dojo/_base/lang","dojo/Deferred","dojo/topic","./DeleteConfirmation"],function(_1,_2,_3,_4,_5){var _6=function(_7){var _8=new _3(),_9=new _5(_7);_9.connect(_9,"onAction",function(_a){if(_a){_8.resolve();}else{_8.cancel();}});_9.show();_4.subscribe("catalogContentDeleted",function(){_9.hide();});_4.subscribe("/epi/cms/action/delete/error",function(){_9.hide();});return _8;};return _6;});

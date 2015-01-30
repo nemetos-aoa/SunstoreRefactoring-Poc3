@@ -1,0 +1,175 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RootMaster.master.cs" Inherits="EPiServerCommerceSite.Templates.MasterPages.RootMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1" runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=9">
+    <title>EPiServer Commerce Training</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http:/html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le styles -->
+    <link href="/templates/UX/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/templates/UX/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/templates/UX/bootstrap/assets/css/docs.css" rel="stylesheet">
+    <link href="/templates/UX/bootstrap/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="/templates/UX/mcdx/prettyphoto/css/prettyPhoto.css" rel="stylesheet">
+    <link href="/templates/UX/mcdx/mbextruder/css/mbExtruder.css" rel="stylesheet">
+    <link href="/templates/UX/mcdx/mbscrollable/css/mbscrollable.css" rel="stylesheet">
+    <link href="/templates/UX/mcdx/css/commerce.css" rel="stylesheet">
+    <link href="/templates/UX/styles/styles.css" rel="stylesheet">
+    <!-- Choose a Skin or Brand-->
+    <link href="/templates/UX/skin.Training/enoteca.css" rel="stylesheet">
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/templates/UX/bootstrap/assets/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="/templates/UX/bootstrap/assets/ico/bootstrap-apple-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/templates/UX/bootstrap/assets/ico/bootstrap-apple-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/templates/UX/bootstrap/assets/ico/bootstrap-apple-114x114.png">
+</head>
+<!-- end bbinclude -->
+<body>
+    <form id="aspnetForm" runat="server">
+    <!-- container -->
+    <div class="container">
+        <!-- #bbinclude "includes/header-primary-nav.html" -->
+        <header>
+            <div class="row C_Logo-Account-Bar">
+                <div class="span3">
+                    <%-- <CMSNav:toolbar id="ToolbarCtrl" runat="server" />--%>
+                    &nbsp; <a class="enoteca-on" href="/">
+                        <img src="/templates/UX/skin.Training/img/logo.gif" alt="">
+                    </a>
+                </div>
+                <div class="span7">
+                    <ul class="nav nav-pills pull-right">
+                        <li>
+							<a href="/cart/standard-feature-cart/" ID="cartLink" runat="server">
+								
+							</a>
+						</li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/Self-Service/login/">
+                            <%--<CMSNav:NavAccountBar ID="NavAccountBarID" runat="server"></CMSNav:NavAccountBar>--%>
+                        </a>
+                            <ul class="dropdown-menu">
+                                <%--<li><a href="/self-service/account-info/"><%= LocalizationService.Current.GetString("/Sample/NavBar/AccountInfo") %></a></li>
+                                <li><a href="/self-service/your-orders/"><%= LocalizationService.Current.GetString("/Sample/NavBar/OrdersHistory") %></a></li>
+                                <li><a href="/self-service/your-addresses/"><%= LocalizationService.Current.GetString("/Sample/NavBar/Addresses") %></a></li>
+                                <li><a href="/self-service/your-wish-list/"><%= LocalizationService.Current.GetString("/Sample/NavBar/WishList") %></a></li>--%>
+                                <li class="divider"></li>
+                                <li>
+                                    <%--<CMSNav:LoginSelector ID="LoginSelectorID" runat="server" />--%>
+                                </li>
+                            </ul>
+                        </li>
+                        <%--<CMSNav:MarketSelector ID="MarketSelectorID" runat="server" />--%>
+                    </ul>
+                </div>
+                <div class="span2">
+                    <a href="/" target="new">
+                        <img class="pull-right" style="max-width: 136px;" src="/templates/UX/skin.Training/img/EpiserverTraining.png" alt=""></a>
+                </div>
+            </div>
+            <div class="row C_Primary-Navigation">
+                <div class="span12">
+                    <%--<CMSNav:TopMenu ID="TopMenuCtrl" runat="server" />--%>
+                    <%--  <ul class="breadcrumb">
+                        <li><a href="~/" runat="server">Home</a> <span class="divider">/</span></li>
+                        <li><a href="#">Crumb 1</a> <span class="divider">/</span></li>
+                        <li class="active">Crumb 2</li>
+                    </ul>--%>
+                </div>
+            </div>
+        </header>
+        <!-- end bbinclude -->
+        <!-- BEGIN CONTENT BODY OR BUSINESS CONTROL(S) -->
+        <!-- #bbinclude "controls/XXXXXX.html" -->
+        <div class="row">
+            <div class="span12">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <!-- end bbinclude -->
+        <!-- END CONTENT BODY OR BUSINESS CONTROL(S) -->
+        <!-- #bbinclude "includes/footer.html" -->
+        <footer>
+            <div class="row C_Footer-Separation">
+                <div class="span12">
+                    <br />
+                </div>
+            </div>
+            <div class="row C_Footer-Navigation">
+                <div class="span3">
+                    <div class="well">
+                        <h4>Training Services </h4>
+                        <p>
+                            Contact Us at<br />
+                            episerver.com/training
+                        </p>
+                        <p><a class="btn btn-small btn-info" href="#"><i class="icon-envelope icon-white"></i>e-Mail us</a> </p>
+                    </div>
+                </div>
+                <div class="span3">
+                    <h4> Related web sites </h4>
+                    <ul>
+                        <li><a href="http://www.episerver.com"> EPiServer </a></li>
+<%--                        <li><a href="http://world.episerver.com"> EPiServer Community </a></li>
+                        <li><a href="http://license.episerver.com"> EPiServer License Center </a></li>--%>
+                    </ul>
+                    <h4> Shortcuts </h4>
+                    <ul>
+                        <li><a href="#"> Customers </a></li>
+                        <%--<li><a href="#"> Press Room </a></li>--%>
+                        <li><a href="#"> Events </a></li>
+                        <%--<li><a href="#"> Privacy Policy </a></li>--%>
+                    </ul>
+                </div>
+                <div class="span3">
+                    <h4> Terms of Use </h4>
+                    <ul>
+                        <%--<li><a href="#"> Acceptance of Terms </a></li>
+                        <li><a href="#"> Use of Services </a></li>--%>
+                        <li><a href="#"> Links to Third Party Sites </a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- end bbinclude -->
+    </div>
+    <!-- #bbinclude "includes/scripts.html" -->
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/templates/UX/bootstrap/assets/js/widgets.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/jquery.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/google-code-prettify/prettify.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/bootstrap-transition.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/bootstrap-alert.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/bootstrap-modal.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/bootstrap-dropdown.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/bootstrap-tab.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/bootstrap-tooltip.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/bootstrap-popover.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/bootstrap-button.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/bootstrap-collapse.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/bootstrap-carousel.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/bootstrap-typeahead.js"></script>
+    <script src="/templates/UX/mcdx/prettyphoto/js/jquery.prettyPhoto.js"></script>
+    <script src="/templates/UX/mcdx/mbextruder/inc/jquery.hoverIntent.min.js"></script>
+    <script src="/templates/UX/mcdx/mbextruder/inc/jquery.metadata.js"></script>
+    <script src="/templates/UX/mcdx/mbextruder/inc/jquery.mb.flipText.js"></script>
+    <script src="/templates/UX/mcdx/mbextruder/inc/mbExtruder.js"></script>
+    <script src="/templates/UX/mcdx/mbscrollable/inc/mbScrollable.js"></script>
+    <script src="/templates/UX/bootstrap/assets/js/application.js"></script>
+	 <script src="/templates/UX/bootstrap/assets/js/json2.js"></script>
+    <!-- end bbinclude -->
+    </form>
+</body>
+</html>
+
+

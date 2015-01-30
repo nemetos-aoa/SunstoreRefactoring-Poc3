@@ -1,0 +1,2 @@
+//>>built
+define("epi-ecf-ui/contentediting/editors/RelationCollectionGridAssembler",["dojo/_base/array","dojo/_base/declare","dojo/when","epi/shell/selection","epi/shell/command/builder/ButtonBuilder","epi-cms/_ContentContextMixin","epi-cms/contentediting/editors/DefaultGridAssembler"],function(_1,_2,_3,_4,_5,_6,_7){return _2([_7,_6],{renderActionMenu:function(_8,_9,_a){var _b=new _5({settings:{showLabel:false}});_1.forEach(_a,function(_c){_b.create(_c,_9);});}});});

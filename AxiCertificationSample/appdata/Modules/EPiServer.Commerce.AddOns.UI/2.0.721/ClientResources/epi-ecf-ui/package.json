@@ -1,0 +1,21 @@
+{
+    "name": "epi-ecf-ui",
+    "version":"1.0.0",
+    "author": "EPiServer AB <support@episerver.com>",
+    "main":"CommerceUIModule",
+    "dependencies": {
+        "dojo": "current",
+        "dijit": "current",
+        "epi-shell": "current",
+        "epi-cms": "current"
+    },
+    "description": "",
+    "licenses": [{
+        "type": "EPiServer End User License Agreement",
+        "url": "http://www.episerver.com/Licenses/Implemented-software/EULA/"
+    }],
+    "bugs": "http://world.episerver.com/Support/Categories/How-can-we-be-of-assistance/Developer-Support/",
+    "keywords": ["EPiServer", "E-commerce", "Framework"],
+    "homepage": "http://www.episerver.com/",
+    "dojoBuild": "epi-ecf-ui.profile.js"
+}

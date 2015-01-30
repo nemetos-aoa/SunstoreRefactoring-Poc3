@@ -1,0 +1,22 @@
+﻿body {
+}
+
+.modal
+{
+    max-height: 800px !important;
+    width: 780px !important;
+    margin-left: -390px; /* - width/2 */
+    margin-top: -400px;
+}
+
+.requiredfield {
+    color: red;
+}
+
+/* Truncate String with Ellipsis */
+.truncate {
+    white-space: nowrap;  
+    width: 100%;  
+    overflow: hidden;  
+    text-overflow: ellipsis;  
+}

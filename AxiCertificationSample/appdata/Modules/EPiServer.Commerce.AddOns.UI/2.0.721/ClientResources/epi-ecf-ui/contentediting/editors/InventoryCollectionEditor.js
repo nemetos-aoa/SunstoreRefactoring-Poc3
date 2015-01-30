@@ -1,0 +1,2 @@
+//>>built
+define("epi-ecf-ui/contentediting/editors/InventoryCollectionEditor",["dojo/_base/declare","dojo/_base/lang","./ReadOnlyCollectionEditor","../viewmodel/InventoryCollectionEditorModel"],function(_1,_2,_3,_4){return _1([_3],{modelType:_4});});

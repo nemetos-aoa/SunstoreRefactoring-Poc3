@@ -1,0 +1,71 @@
+/* Enoteca Override
+-------------------------------------------------- */
+
+/*Off Position For Baseline Starter Demo*/
+
+
+.enoteca-off {
+	display: block;	
+}
+
+.enoteca-on {
+	display: none;	
+}
+
+footer {
+	background-color:#eee;	
+}
+
+
+/*On Position For Enoteca*/
+
+/*
+
+body {
+  position: relative;
+  background-color: transparent;
+  background-image: url(img/background.jpg);
+  background-repeat: repeat; 
+  background-position: 0 40px;
+}
+
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+}
+
+
+
+.navbar-inner {
+
+  background-color: #550e33;
+  background-image: -moz-linear-gradient(top, #550e33, #550e33);
+  background-image: -ms-linear-gradient(top, #550e33, #550e33);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#550e33), to(#550e33));
+  background-image: -webkit-linear-gradient(top, #550e33, #550e33);
+  background-image: -o-linear-gradient(top, #550e33, #550e33);
+  background-image: linear-gradient(top, #550e33, #550e33);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#550e33', endColorstr='#550e33', GradientType=0);
+
+}
+
+.navbar .container {
+  background-color: #550e33;
+  padding: 0px;
+}
+
+
+.enoteca-on {
+	display: block;	
+}
+
+.enoteca-off {
+	display: none;	
+}
+
+*/
+
+
+
+

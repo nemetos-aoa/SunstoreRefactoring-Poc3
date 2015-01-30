@@ -1,0 +1,2 @@
+//>>built
+define("epi-ecf-ui/contentediting/editors/PriceCollectionReadOnlyEditor",["dojo/_base/declare","./ReadOnlyCollectionEditor","../viewmodel/PriceCollectionReadOnlyEditorModel","epi/i18n!epi/cms/nls/commerce.components.catalogs.commands"],function(_1,_2,_3,_4){return _1([_2],{iconClass:"epi-iconPricing",modelType:_3,changeToView:"pricingview",buttonLabel:_4.previewprice});});

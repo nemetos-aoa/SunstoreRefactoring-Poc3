@@ -1,0 +1,2 @@
+//>>built
+define("epi-ecf-ui/contentediting/editors/VariantCollectionReadOnlyEditor",["dojo/_base/declare","./ReadOnlyCollectionEditor","../viewmodel/VariantCollectionReadOnlyEditorModel","epi/i18n!epi/cms/nls/commerce.contentediting.editors.variantcollectioneditor"],function(_1,_2,_3,_4){return _1([_2],{iconClass:"epi-iconObjectVariation",modelType:_3,_renderNoDataMessage:function(){this.grid.set("noDataMessage",_4.nodatamessage);this.inherited(arguments);},changeToView:"variantview",buttonLabel:_4.editbuttontext});});

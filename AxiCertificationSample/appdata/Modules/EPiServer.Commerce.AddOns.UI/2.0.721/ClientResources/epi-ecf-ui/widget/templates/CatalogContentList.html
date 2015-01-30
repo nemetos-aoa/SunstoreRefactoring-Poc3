@@ -1,0 +1,14 @@
+﻿<div class="epi-catalogContentList">
+    <div data-dojo-attach-point="toolbar" data-dojo-type="epi-cms/contentediting/StandardToolbar" class="epi-viewHeaderContainer epi-localToolbar"></div>
+    <div class="epi-localToolbar epi-flatToolbar">
+        <div class="epi-toolbarGroupContainer">
+            <div class="epi-toolbarGroup epi-toolbarLeading" data-dojo-attach-point="leadingNode"></div>
+            <div class="epi-toolbarGroup epi-toolbarCenter" data-dojo-attach-point="centerNode"></div>
+            <div class="epi-toolbarGroup epi-toolbarTrailing" data-dojo-attach-point="trailingNode">
+                <label for="markets">${resources.market}</label>
+                <select name="markets" data-dojo-type="epi-ecf-ui/widget/MarketSelector" data-dojo-attach-point="marketSelector" data-dojo-attach-event='onChange: _onMarketChanged' class="epi-chromelessSelect epi-flatSelect"></select>
+            </div>
+        </div>
+    </div>
+    <div data-dojo-attach-point="gridNode"></div>
+</div>

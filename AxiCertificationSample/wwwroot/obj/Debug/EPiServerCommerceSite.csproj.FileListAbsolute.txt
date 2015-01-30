@@ -1,0 +1,16 @@
+C:\Episerver\AxiCertificationSample\wwwroot\bin\EPiServerCommerceSite.dll
+C:\Episerver\AxiCertificationSample\wwwroot\bin\EPiServerCommerceSite.pdb
+C:\Episerver\AxiCertificationSample\wwwroot\bin\Iesi.Collections.dll
+C:\Episerver\AxiCertificationSample\wwwroot\bin\AjaxControlToolkit.dll
+C:\Episerver\AxiCertificationSample\wwwroot\bin\Common.Logging.dll
+C:\Episerver\AxiCertificationSample\wwwroot\bin\Mediachase.FileUploader.dll
+C:\Episerver\AxiCertificationSample\wwwroot\bin\EPiServer.Common.Framework.Impl.dll
+C:\Episerver\AxiCertificationSample\wwwroot\bin\EPiServer.Common.Framework.dll
+C:\Episerver\AxiCertificationSample\wwwroot\bin\EPiServer.Common.Security.dll
+C:\Episerver\AxiCertificationSample\wwwroot\bin\EPiServer.Common.Cache.dll
+C:\Episerver\AxiCertificationSample\wwwroot\bin\EPiServer.Common.Data.dll
+C:\Episerver\AxiCertificationSample\wwwroot\bin\EPiServer.Common.Configuration.dll
+C:\Episerver\AxiCertificationSample\wwwroot\bin\EPiServer.Common.Framework.Exceptions.dll
+C:\Episerver\AxiCertificationSample\wwwroot\obj\Debug\EPiServerCommerceSite.csprojResolveAssemblyReference.cache
+C:\Episerver\AxiCertificationSample\wwwroot\obj\Debug\EPiServerCommerceSite.dll
+C:\Episerver\AxiCertificationSample\wwwroot\obj\Debug\EPiServerCommerceSite.pdb

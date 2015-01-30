@@ -1,0 +1,2 @@
+//>>built
+define("epi-ecf-ui/contentediting/viewmodel/InventoryCollectionEditorModel",["dojo/_base/declare","dojo/_base/lang","./ReadOnlyCollectionEditorModel"],function(_1,_2,_3){return _1([_3],{_storeKey:"epi.commerce.inventory"});});

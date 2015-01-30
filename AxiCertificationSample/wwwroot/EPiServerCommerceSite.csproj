@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1502E55F-A6D6-490F-8AE9-2E83F768BE44}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EPiServerCommerceSite</RootNamespace>
+    <AssemblyName>EPiServerCommerceSite</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <OutputPath>bin\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <OutputPath>bin\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="lang\" />
+    <Folder Include="Models\PageTypes\EntryDetails\" />
+    <Folder Include="Models\PageTypes\NodeListing\" />
+    <Folder Include="modules\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Templates\Units\" />
+    <Folder Include="Templates\UX\mcdx\img\" />
+    <Folder Include="Templates\UX\mcdx\jquery-tmpl\" />
+    <Folder Include="Templates\UX\mcdx\js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="connectionStrings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="episerver.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="EPiServerFramework.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="EPiServerLog.config" />
+    <Content Include="global.asax" />
+    <Content Include="modulesbin\EPiServer.Cms.Shell.UI.dll" />
+    <Content Include="modulesbin\EPiServer.Commerce.AddOns.Manager.dll" />
+    <Content Include="modulesbin\EPiServer.Commerce.AddOns.UI.dll" />
+    <Content Include="modulesbin\EPiServer.Packaging.CmdAPI.dll" />
+    <Content Include="modulesbin\EPiServer.Packaging.dll" />
+    <Content Include="modulesbin\EPiServer.Packaging.UI.dll" />
+    <Content Include="modulesbin\EPiServer.Shell.UI.dll" />
+    <Content Include="modulesbin\NuGet.Core.dll" />
+    <Content Include="obj\Debug\EPiServerCommerceSite.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\EPiServerCommerceSite.dll" />
+    <Content Include="obj\Debug\EPiServerCommerceSite.pdb" />
+    <Content Include="Services\ProductComment.svc" />
+    <Content Include="Services\ProductRating.svc" />
+    <Content Include="Templates\Pages\CourseCart.aspx" />
+    <Content Include="Templates\Pages\CourseCheckoutParentPage.aspx" />
+    <Content Include="Templates\Pages\FashionNodeTemplate.aspx" />
+    <Content Include="Templates\Pages\FashionProductTemplate.aspx" />
+    <Content Include="Templates\Pages\FashionVariationTemplate.aspx" />
+    <Content Include="Templates\Pages\StartPageTemplate.aspx" />
+    <Content Include="Templates\Pages\Units\CourseCheckout\OrderAddressPage.ascx" />
+    <Content Include="Templates\Pages\Units\CourseCheckout\OrderCompletePage.ascx" />
+    <Content Include="Templates\Pages\Units\CourseCheckout\PaymentPage.ascx" />
+    <Content Include="Templates\Pages\Units\CourseCheckout\SetShippingMethodPage.ascx" />
+    <Content Include="Templates\UX\bootstrap\assets\css\bootstrap-responsive.css" />
+    <Content Include="Templates\UX\bootstrap\assets\css\bootstrap.css" />
+    <Content Include="Templates\UX\bootstrap\assets\css\docs.css" />
+    <Content Include="Templates\UX\bootstrap\assets\ico\bootstrap-apple-114x114.png" />
+    <Content Include="Templates\UX\bootstrap\assets\ico\bootstrap-apple-57x57.png" />
+    <Content Include="Templates\UX\bootstrap\assets\ico\bootstrap-apple-72x72.png" />
+    <Content Include="Templates\UX\bootstrap\assets\ico\favicon.ico" />
+    <Content Include="Templates\UX\bootstrap\assets\img\bird.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\bootstrap-mdo-sfmoma-01.jpg" />
+    <Content Include="Templates\UX\bootstrap\assets\img\bootstrap-mdo-sfmoma-02.jpg" />
+    <Content Include="Templates\UX\bootstrap\assets\img\bootstrap-mdo-sfmoma-03.jpg" />
+    <Content Include="Templates\UX\bootstrap\assets\img\browsers.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\example-diagram-01.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\example-diagram-02.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\example-diagram-03.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\example-sites\bartop.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\example-sites\fleetio.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\example-sites\jshint.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\example-sites\kippt.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\example-sites\railwayjs.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\example-sites\totalwireframe.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\examples\bootstrap-example-fluid.jpg" />
+    <Content Include="Templates\UX\bootstrap\assets\img\examples\bootstrap-example-hero.jpg" />
+    <Content Include="Templates\UX\bootstrap\assets\img\examples\bootstrap-example-starter.jpg" />
+    <Content Include="Templates\UX\bootstrap\assets\img\github-16px.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\glyphicons-halflings-white.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\glyphicons-halflings.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\glyphicons\glyphicons_009_magic.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\glyphicons\glyphicons_042_group.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\glyphicons\glyphicons_079_podium.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\glyphicons\glyphicons_082_roundabout.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\glyphicons\glyphicons_155_show_thumbnails.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\glyphicons\glyphicons_163_iphone.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\glyphicons\glyphicons_214_resize_small.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\glyphicons\glyphicons_266_book_open.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\grid-18px-masked.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\icon-css3.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\icon-github.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\icon-html5.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\icon-twitter.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\less-logo-large.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\less-small.png" />
+    <Content Include="Templates\UX\bootstrap\assets\img\responsive-illustrations.png" />
+    <Content Include="Templates\UX\bootstrap\assets\js\application.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\bootstrap-alert.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\bootstrap-button.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\bootstrap-carousel.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\bootstrap-collapse.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\bootstrap-dropdown.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\bootstrap-modal.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\bootstrap-popover.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\bootstrap-scrollspy.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\bootstrap-tab.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\bootstrap-tooltip.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\bootstrap-transition.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\bootstrap-typeahead.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\google-code-prettify\prettify.css" />
+    <Content Include="Templates\UX\bootstrap\assets\js\google-code-prettify\prettify.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\jquery.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\json2.js" />
+    <Content Include="Templates\UX\bootstrap\assets\js\widgets.js" />
+    <Content Include="Templates\UX\bootstrap\css\bootstrap-responsive.css" />
+    <Content Include="Templates\UX\bootstrap\css\bootstrap-responsive.min.css" />
+    <Content Include="Templates\UX\bootstrap\css\bootstrap.css" />
+    <Content Include="Templates\UX\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Templates\UX\bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="Templates\UX\bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="Templates\UX\bootstrap\js\bootstrap.js" />
+    <Content Include="Templates\UX\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Templates\UX\mcdx\css\commerce.css" />
+    <Content Include="Templates\UX\mcdx\css\master.css" />
+    <Content Include="Templates\UX\mcdx\mbextruder\css\mbExtruder.css" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\black_op_30.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\blue_op_75.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\extruder_bgnd.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\extruder_blank.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\extruder_bottom.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\extruder_flap.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\extruder_header_bgnd.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\extruder_left.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\extruder_left_flap.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\extruder_voice.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\extruder_voiceHover.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\fuzz.gif" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\optionsPanel.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\orange_op_75.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\red_op_50.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\elements\settingsBtn.png" />
+    <Content Include="Templates\UX\mcdx\mbextruder\inc\changeLog.txt" />
+    <Content Include="Templates\UX\mcdx\mbextruder\inc\jquery.hoverIntent.min.js" />
+    <Content Include="Templates\UX\mcdx\mbextruder\inc\jquery.mb.flipText.js" />
+    <Content Include="Templates\UX\mcdx\mbextruder\inc\jquery.metadata.js" />
+    <Content Include="Templates\UX\mcdx\mbextruder\inc\mbExtruder.js" />
+    <Content Include="Templates\UX\mcdx\mbscrollable\css\mbscrollable.css" />
+    <Content Include="Templates\UX\mcdx\mbscrollable\demo.html" />
+    <Content Include="Templates\UX\mcdx\mbscrollable\demo1.html" />
+    <Content Include="Templates\UX\mcdx\mbscrollable\elements\elBgnd.png" />
+    <Content Include="Templates\UX\mcdx\mbscrollable\inc\changeLog.txt" />
+    <Content Include="Templates\UX\mcdx\mbscrollable\inc\mbScrollable.js" />
+    <Content Include="Templates\UX\mcdx\mbscrollable\licenses\GPL-LICENSE.txt" />
+    <Content Include="Templates\UX\mcdx\mbscrollable\licenses\MIT-LICENSE.txt" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\css\prettyPhoto.css" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\fullscreen\1.jpg" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\fullscreen\2.jpg" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\fullscreen\3.jpg" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\fullscreen\4.jpg" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\fullscreen\5.jpg" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\fullscreen\6.jpg" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\fullscreen\high.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\fullscreen\huge.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\fullscreen\wide.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\default\loader.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\default\sprite.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\light_square\loader.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\prettyPhoto\light_square\sprite.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\thumbnails\flash-logo.png" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\thumbnails\quicktime-logo.gif" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\thumbnails\t_1.jpg" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\thumbnails\t_2.jpg" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\thumbnails\t_3.jpg" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\thumbnails\t_4.jpg" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\images\thumbnails\t_5.jpg" />
+    <Content Include="Templates\UX\mcdx\prettyphoto\js\jquery.prettyPhoto.js" />
+    <Content Include="Templates\UX\skin.Training\enoteca.css" />
+    <Content Include="Templates\UX\skin.Training\img\background.jpg" />
+    <Content Include="Templates\UX\skin.Training\img\EPiServerTraining.png" />
+    <Content Include="Templates\UX\skin.Training\img\Episerver_logo.png" />
+    <Content Include="Templates\UX\skin.Training\img\grid-18px-masked.png" />
+    <Content Include="Templates\UX\skin.Training\img\home-adv-1.jpg" />
+    <Content Include="Templates\UX\skin.Training\img\iStock_000012635718Small.jpg" />
+    <Content Include="Templates\UX\skin.Training\img\iStock_000017532684Small.jpg" />
+    <Content Include="Templates\UX\skin.Training\img\iStock_000017637477Small.jpg" />
+    <Content Include="Templates\UX\skin.Training\img\logo.gif" />
+    <Content Include="Templates\UX\skin.Training\img\mainAdvertise.jpg" />
+    <Content Include="Templates\UX\styles\styles.css" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Web.Mvc" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="EPiServer">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\EPiServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.ApplicationModules">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\EPiServer.ApplicationModules.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.Data">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\EPiServer.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="EPiServer.Web.WebControls">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\EPiServer.Web.WebControls.dll</HintPath>
+    </Reference>
+    <Reference Include="EPiServer.BaseLibrary">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\EPiServer.BaseLibrary.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.Framework">
+      <HintPath>bin\EPiServer.Framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>bin\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StructureMap">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\StructureMap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Castle.DynamicProxy">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Castle.DynamicProxy.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NHibernate">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\NHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nsoftware.IBizPay">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\nsoftware.IBizPay.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.BusinessFoundation.Data">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.BusinessFoundation.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.BusinessFoundation">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.BusinessFoundation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.DataProvider">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.DataProvider.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.MetaDataPlus">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.MetaDataPlus.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.SqlDataProvider">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.SqlDataProvider.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.Commerce.Workflow.Activities">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.Commerce.Workflow.Activities.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.Commerce">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.Commerce.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.Commerce.Marketing.Validators">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.Commerce.Marketing.Validators.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.Commerce.Workflow">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.Commerce.Workflow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.Commerce.Plugins.Payment">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.Commerce.Plugins.Payment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.Commerce.Plugins.Shipping">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.Commerce.Plugins.Shipping.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.Search">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.Search.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.Search.Extensions">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.Search.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mediachase.Commerce.Website">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Mediachase.Commerce.Website.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EPiServer.Business.Commerce">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\EPiServer.Business.Commerce.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Configs\baf.config" />
+    <Content Include="Configs\baf.data.manager.config" />
+    <Content Include="Configs\baf.data.metaobject.config" />
+    <Content Include="Configs\baf.library.folders.config" />
+    <Content Include="Configs\ecf.app.config" />
+    <Content Include="Configs\ecf.asset.config" />
+    <Content Include="Configs\ecf.catalog.config" />
+    <Content Include="Configs\ecf.cms.config" />
+    <Content Include="Configs\ecf.customer.config" />
+    <Content Include="Configs\ecf.customization.config" />
+    <Content Include="Configs\ecf.marketing.config" />
+    <Content Include="Configs\ecf.order.config" />
+    <Content Include="Configs\ecf.security.config" />
+    <Content Include="Configs\ecf.ssl.config" />
+    <Content Include="Configs\ecf.workflow.config" />
+    <Content Include="Configs\Mediachase.Search.config" />
+    <Content Include="Configs\Mediachase.Search.Filters.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MediachaseECF\Tools.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\EPiServerCommerceSite.csprojResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClasses\RendererBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Initialization\InitializationModule.cs" />
+    <Compile Include="Helpers\LabStoreHelper.cs" />
+    <Compile Include="Models\Catalog\FashionNode.cs" />
+    <Compile Include="Models\Catalog\FashionProduct.cs" />
+    <Compile Include="Models\Catalog\FashionVariation.cs" />
+    <Compile Include="Models\GeneralContentType.cs" />
+    <Compile Include="Models\Media\ImageType.cs" />
+    <Compile Include="Models\PageTypes\AccountType.cs" />
+    <Compile Include="Models\PageTypes\CartViewType.cs" />
+    <Compile Include="Models\PageTypes\CatalogStartType.cs" />
+    <Compile Include="Models\PageTypes\CourseCheckoutType.cs" />
+    <Compile Include="Models\PageTypes\SettingsBlock.cs" />
+    <Compile Include="Models\PageTypes\StartPageType.cs" />
+    <Compile Include="Templates\MasterPages\RootMaster.Master.cs">
+      <DependentUpon>RootMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\MasterPages\RootMaster.Master.designer.cs">
+      <DependentUpon>RootMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Pages\CourseCart.aspx.cs">
+      <DependentUpon>CourseCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Pages\CourseCart.aspx.designer.cs">
+      <DependentUpon>CourseCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Pages\CourseCheckoutParentPage.aspx.cs">
+      <DependentUpon>CourseCheckoutParentPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Pages\CourseCheckoutParentPage.aspx.designer.cs">
+      <DependentUpon>CourseCheckoutParentPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Pages\FashionNodeTemplate.aspx.cs">
+      <DependentUpon>FashionNodeTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Pages\FashionNodeTemplate.aspx.designer.cs">
+      <DependentUpon>FashionNodeTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Pages\FashionProductTemplate.aspx.cs">
+      <DependentUpon>FashionProductTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Pages\FashionProductTemplate.aspx.designer.cs">
+      <DependentUpon>FashionProductTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Pages\FashionVariationTemplate.aspx.cs">
+      <DependentUpon>FashionVariationTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Pages\FashionVariationTemplate.aspx.designer.cs">
+      <DependentUpon>FashionVariationTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Pages\StartPageTemplate.aspx.cs">
+      <DependentUpon>StartPageTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Pages\StartPageTemplate.aspx.designer.cs">
+      <DependentUpon>StartPageTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Pages\Units\CourseCheckout\OrderAddressPage.ascx.cs">
+      <DependentUpon>OrderAddressPage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Pages\Units\CourseCheckout\OrderAddressPage.ascx.designer.cs">
+      <DependentUpon>OrderAddressPage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Pages\Units\CourseCheckout\OrderCompletePage.ascx.cs">
+      <DependentUpon>OrderCompletePage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Pages\Units\CourseCheckout\OrderCompletePage.ascx.designer.cs">
+      <DependentUpon>OrderCompletePage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Pages\Units\CourseCheckout\PaymentPage.ascx.cs">
+      <DependentUpon>PaymentPage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Pages\Units\CourseCheckout\PaymentPage.ascx.designer.cs">
+      <DependentUpon>PaymentPage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Pages\Units\CourseCheckout\SetShippingMethodPage.ascx.cs">
+      <DependentUpon>SetShippingMethodPage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Pages\Units\CourseCheckout\SetShippingMethodPage.ascx.designer.cs">
+      <DependentUpon>SetShippingMethodPage.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Templates\MasterPages\RootMaster.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Templates\UX\bootstrap\assets\bootstrap.zip" />
+    <Content Include="Templates\UX\bootstrap\assets\js\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Templates\UX\mcdx\mbscrollable\README" />
+    <Content Include="Templates\UX\mcdx\mbscrollable\README.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+</Project>

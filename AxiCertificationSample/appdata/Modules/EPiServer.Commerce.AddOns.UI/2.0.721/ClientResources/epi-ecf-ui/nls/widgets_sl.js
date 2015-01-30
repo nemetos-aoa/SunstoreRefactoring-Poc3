@@ -1,0 +1,2 @@
+//>>built
+define("epi-ecf-ui/nls/widgets_sl",{"dojo/cldr/nls/currency":{"USD_symbol":"$","CAD_symbol":"CA$","GBP_symbol":"£","HKD_symbol":"HK$","JPY_symbol":"¥","AUD_symbol":"A$","CNY_symbol":"CN¥","EUR_symbol":"€","HKD_displayName":"hongkonški dolar","CHF_displayName":"švicarski frank","CAD_displayName":"kanadski dolar","CNY_displayName":"kitajski juan renminbi","AUD_displayName":"avstralski dolar","JPY_displayName":"japonski jen","USD_displayName":"ameriški dolar","GBP_displayName":"britanski funt","EUR_displayName":"evro"}});

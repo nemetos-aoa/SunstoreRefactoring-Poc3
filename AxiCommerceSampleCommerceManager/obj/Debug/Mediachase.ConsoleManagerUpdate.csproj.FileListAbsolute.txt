@@ -1,0 +1,14 @@
+C:\Episerver\AxiCommerceSampleCommerceManager\wwwroot\bin\Mediachase.ConsoleManagerUpdate.dll
+C:\Episerver\AxiCommerceSampleCommerceManager\wwwroot\bin\Mediachase.ConsoleManagerUpdate.pdb
+C:\Episerver\AxiCommerceSampleCommerceManager\obj\Debug\Mediachase.ConsoleManagerUpdate.csprojResolveAssemblyReference.cache
+C:\Episerver\AxiCommerceSampleCommerceManager\obj\Debug\Mediachase.ConsoleManagerUpdate.dll
+C:\Episerver\AxiCommerceSampleCommerceManager\obj\Debug\Mediachase.ConsoleManagerUpdate.pdb
+C:\Episerver\AxiCommerceSampleCommerceManager\wwwroot\bin\EPiServer.Business.Commerce.dll
+C:\Episerver\AxiCommerceSampleCommerceManager\wwwroot\bin\EPiServer.Common.Framework.Impl.dll
+C:\Episerver\AxiCommerceSampleCommerceManager\wwwroot\bin\EPiServer.Common.Framework.dll
+C:\Episerver\AxiCommerceSampleCommerceManager\wwwroot\bin\EPiServer.Common.Security.dll
+C:\Episerver\AxiCommerceSampleCommerceManager\wwwroot\bin\EPiServer.Common.Cache.dll
+C:\Episerver\AxiCommerceSampleCommerceManager\wwwroot\bin\EPiServer.Common.Data.dll
+C:\Episerver\AxiCommerceSampleCommerceManager\wwwroot\bin\NHibernate.dll
+C:\Episerver\AxiCommerceSampleCommerceManager\wwwroot\bin\EPiServer.Common.Configuration.dll
+C:\Episerver\AxiCommerceSampleCommerceManager\wwwroot\bin\EPiServer.Common.Framework.Exceptions.dll
